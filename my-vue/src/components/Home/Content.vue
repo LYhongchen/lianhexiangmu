@@ -2,11 +2,11 @@
 	<div class="home">
 		<!-- 需要引入ui框架 -->
 		<div class="top">
-			<!-- <Banner>
+			<Banner>
 			    <swiper-slide><img src="/static/自己切图/轮播图/move1.png" alt=""></swiper-slide>
 			   <swiper-slide><img src="/static/自己切图/轮播图/move1.png" alt=""></swiper-slide>
 			    <swiper-slide><img src="/static/自己切图/轮播图/move1.png" alt=""></swiper-slide>
-			</Banner> -->
+			</Banner>
 		</div>
 		<ul class="content">
 			<li><PublickList title='热播推荐' :content='tuijianlist' :setcol='[2]' :play='true'></PublickList></li>

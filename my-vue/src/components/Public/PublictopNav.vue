@@ -25,7 +25,7 @@ export default {
     return {
       navlist: [
         { url: "/home", content: "首页", alias: "CCTV手机电视" },
-        { url: "", content: "新闻", alias: "CCTV手机电视" },
+        { url: "/News", content: "新闻", alias: "CCTV手机电视" },
         { url: "", content: "体育", alias: "CCTV手机电视" },
         { url: "/hotdrama", content: "热剧", alias: "CCTV手机电视" },
         { url: "/movie", content: "电影", alias: "CCTV手机电视" },

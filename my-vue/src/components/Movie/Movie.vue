@@ -2,9 +2,9 @@
     <div>
         <div class="top">
 			<Banner>
-			    <swiper-slide><img src="/static/轮播图/movie1.png" alt=""></swiper-slide>
-			    <swiper-slide><img src="/static/轮播图/movie1.png" alt=""></swiper-slide>
-			    <swiper-slide><img src="/static/轮播图/movie1.png" alt=""></swiper-slide>
+			    <swiper-slide><img src="/static/自己切图/轮播图/move3.png" alt=""></swiper-slide>
+			    <swiper-slide><img src="/static/自己切图/轮播图/move3.png" alt=""></swiper-slide>
+			    <swiper-slide><img src="/static/自己切图/轮播图/move3.png" alt=""></swiper-slide>
 			</Banner>
 		</div>
         <div>

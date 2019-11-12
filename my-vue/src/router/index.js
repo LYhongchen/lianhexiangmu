@@ -9,7 +9,9 @@ import PublicTop from '@/components/Public/PublicTop'
 import PublicList2 from '@/components/Public/PublicList2'
 import DSJChannel from '@/components/Video/DSJChannel'
 import DSJDetail from '@/components/Video/DSJDetail'
-
+import News from '@/components/New/News'
+import Toutiao from '@/components/New/Toutiao'
+import NewsBofang from '@/components/New/NewsBofang'
 
 
 
@@ -37,12 +39,18 @@ let arr1 = [{
 		path: '/hotdrama',
 		name: 'HotDrama',
 		component: HotDrama
+},
+{
+		path: '/News',
+		name: 'News',
+		component: News
 }]
 export default new Router({
 	routes: [{
 			path: '/',
-			name: 'PublicList2',
-			component: PublicList2
+			name: 'Home',
+			component: Home,
+			children:arr1
 		},
 		{
 			path: '/Homew',
@@ -54,6 +62,16 @@ export default new Router({
 			path: '/Search',
 			name: 'Search',
 			component: Search
+		},
+		{
+			path: '/Toutiao',
+			name: 'Toutiao',
+			component: Toutiao
+		},
+		{
+			path: '/NewsBofang',
+			name: 'NewsBofang',
+			component: NewsBofang
 		}
 	]
 })
